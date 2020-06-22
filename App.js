@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container } from 'native-base';
-import MyForm from './MyForm';
+import GitHub from './GitHub';
 
 export default function App() {
+  
   return (
     <Container>
-      <MyForm />      
+      <GitHub />
     </Container>
   );
 }
